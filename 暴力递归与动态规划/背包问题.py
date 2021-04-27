@@ -40,7 +40,7 @@ def bag_digui(w,v,index,rest):
 def bag_dp(w,v,rest):
     import numpy as np
     n = len(w)
-    #dp[i,j]代表走到第i个物品，还剩余j的空间时，最大的价值
+    #dp[i,j]代表走到第i个物品，还剩余j的空间时，能获得的最大的价值
     dp = np.zeros((n + 1, rest + 1))
 
     # dp[n,:] = 0
