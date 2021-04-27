@@ -58,3 +58,12 @@ git merge master
 
 git push origin 自己分支名
 ————————————————
+
+
+
+
+
+
+
+# 新建项目
+1.现在github新建一个项目，然后再本地 git clone 项目地址
