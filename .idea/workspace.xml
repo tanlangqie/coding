@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0042145-98bb-4739-af09-340fd476924c" name="Default" comment="" />
+    <list default="true" id="d0042145-98bb-4739-af09-340fd476924c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tem/seq2seq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/tem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/二叉树/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/416分割等和子集.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/最长回文子串.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/二叉树/中序遍历.py" afterPath="$PROJECT_DIR$/二叉树/中序遍历.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/二叉树/前序遍历.py" afterPath="$PROJECT_DIR$/二叉树/前序遍历.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/二叉树/层序遍历.py" afterPath="$PROJECT_DIR$/二叉树/层序遍历.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/quick_sort.py" afterPath="$PROJECT_DIR$/排序/quick_sort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/冒泡排序.py" afterPath="$PROJECT_DIR$/排序/冒泡排序.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/插入排序.py" afterPath="$PROJECT_DIR$/排序/插入排序.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/直接选择.py" afterPath="$PROJECT_DIR$/排序/直接选择.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/暴力递归与动态规划/不同路径.py" afterPath="$PROJECT_DIR$/暴力递归与动态规划/不同路径.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/暴力递归与动态规划/背包问题.py" afterPath="$PROJECT_DIR$/暴力递归与动态规划/背包问题.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,63 +28,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="字符串的全排列.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/字符串的全排列.py">
+      <file leaf-file-name="递归总结.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/递归总结.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1825">
-              <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="roc_threshold.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/roc_threshold.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1950">
-              <caret line="85" column="26" lean-forward="false" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
-              <folding>
-                <element signature="e#211#249#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_ranking.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/site-packages/sklearn/metrics/_ranking.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5700">
-              <caret line="245" column="4" lean-forward="false" selection-start-line="245" selection-start-column="4" selection-end-line="245" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="打印一个字符串的全部子序列.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/打印一个字符串的全部子序列.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1阶2阶爬楼梯.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/1阶2阶爬楼梯.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lstm_life_last.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/m_demo/lstm_money/lstm_life_last.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="350">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,18 +48,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="递归总结.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/递归总结.py">
+      <file leaf-file-name="背包问题.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/背包问题.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="最小路径和.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/最小路径和.py">
+      <file leaf-file-name="416分割等和子集.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/416分割等和子集.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-486">
+              <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roc_threshold.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/roc_threshold.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="70" selection-end-column="7" />
+              <folding>
+                <element signature="e#211#249#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tem.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/util/tem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="93" column="20" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+              <folding>
+                <element signature="e#108#146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="random.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/random.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="719" column="18" lean-forward="true" selection-start-line="719" selection-start-column="18" selection-end-line="719" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_random.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/1621382201/_random.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="三角形最小路径和.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/三角形最小路径和.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -104,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="最长上升子序列.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/最长上升子序列.py">
+      <file leaf-file-name="不同路径.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/不同路径.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="600">
+              <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -124,6 +142,14 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>,</find>
+      <find>\text</find>
+      <find>y_p</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>,</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>D:\PycharmProjects\coding</dir>
     </dirStrings>
@@ -134,27 +160,35 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/二叉树/前序遍历.py" />
         <option value="$PROJECT_DIR$/二叉树/后续遍历.py" />
         <option value="$PROJECT_DIR$/二叉树/后序遍历.py" />
-        <option value="$PROJECT_DIR$/二叉树/中序遍历.py" />
-        <option value="$PROJECT_DIR$/排序/quick_sort.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/排序/冒泡排序.py" />
-        <option value="$PROJECT_DIR$/排序/插入排序.py" />
         <option value="$PROJECT_DIR$/暴力递归与动态规划/打印一个字符串的全部子序列.py" />
-        <option value="$PROJECT_DIR$/暴力递归与动态规划/背包问题.py" />
-        <option value="$PROJECT_DIR$/util/roc_threshold.py" />
         <option value="$PROJECT_DIR$/暴力递归与动态规划/递归总结.py" />
         <option value="$PROJECT_DIR$/m_demo/lstm_money/lstm_life_last.py" />
+        <option value="$PROJECT_DIR$/暴力递归与动态规划/最长回文子串.py" />
+        <option value="$PROJECT_DIR$/排序/冒泡排序.py" />
+        <option value="$PROJECT_DIR$/排序/直接选择.py" />
+        <option value="$PROJECT_DIR$/二叉树/test.py" />
+        <option value="$PROJECT_DIR$/二叉树/中序遍历.py" />
+        <option value="$PROJECT_DIR$/tem/seq2seq.py" />
+        <option value="$PROJECT_DIR$/排序/插入排序.py" />
+        <option value="$PROJECT_DIR$/排序/quick_sort.py" />
+        <option value="$PROJECT_DIR$/二叉树/前序遍历.py" />
+        <option value="$PROJECT_DIR$/二叉树/层序遍历.py" />
+        <option value="$PROJECT_DIR$/暴力递归与动态规划/不同路径.py" />
+        <option value="$PROJECT_DIR$/暴力递归与动态规划/背包问题.py" />
+        <option value="$PROJECT_DIR$/暴力递归与动态规划/416分割等和子集.py" />
+        <option value="$PROJECT_DIR$/util/roc_threshold.py" />
+        <option value="$PROJECT_DIR$/util/tem.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
-    <option name="y" value="23" />
+    <option name="x" value="267" />
+    <option name="y" value="57" />
     <option name="width" value="1934" />
-    <option name="height" value="1035" />
+    <option name="height" value="974" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -174,8 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,8 +234,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="暴力递归与动态规划" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="二叉树" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,61 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.roc_threshold">
-    <configuration default="false" name="quick_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/排序" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="coding" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/排序/quick_sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="冒泡排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/排序" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="coding" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/排序/冒泡排序.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="插入排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/排序" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="coding" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/排序/插入排序.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.tem">
     <configuration default="false" name="背包问题" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -315,6 +337,60 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="coding" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/roc_threshold.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/二叉树" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="coding" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/二叉树/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="seq2seq" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="coding" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tem/seq2seq.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tem" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="coding" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/tem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -386,19 +462,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.quick_sort" />
-      <item index="1" class="java.lang.String" itemvalue="Python.冒泡排序" />
-      <item index="2" class="java.lang.String" itemvalue="Python.插入排序" />
-      <item index="3" class="java.lang.String" itemvalue="Python.背包问题" />
-      <item index="4" class="java.lang.String" itemvalue="Python.roc_threshold" />
+      <item index="0" class="java.lang.String" itemvalue="Python.背包问题" />
+      <item index="1" class="java.lang.String" itemvalue="Python.roc_threshold" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.seq2seq" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tem" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.roc_threshold" />
-        <item index="1" class="java.lang.String" itemvalue="Python.背包问题" />
-        <item index="2" class="java.lang.String" itemvalue="Python.插入排序" />
-        <item index="3" class="java.lang.String" itemvalue="Python.冒泡排序" />
-        <item index="4" class="java.lang.String" itemvalue="Python.quick_sort" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tem" />
+        <item index="1" class="java.lang.String" itemvalue="Python.roc_threshold" />
+        <item index="2" class="java.lang.String" itemvalue="Python.seq2seq" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.背包问题" />
       </list>
     </recent_temporary>
   </component>
@@ -416,19 +492,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="23" width="1934" height="1035" extended-state="0" />
+    <frame x="267" y="57" width="1934" height="974" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28387097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17849462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45287356" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28735632" sideWeight="0.50215054" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5278121" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28735632" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39184177" sideWeight="0.49784946" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29913473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103225805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -445,87 +521,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tem/seq2seq.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/1阶2阶爬楼梯.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/字符串的全排列.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1825">
           <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/roc_threshold.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="85" column="26" lean-forward="false" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
-          <folding>
-            <element signature="e#211#249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/site-packages/sklearn/metrics/_ranking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5700">
-          <caret line="245" column="4" lean-forward="false" selection-start-line="245" selection-start-column="4" selection-end-line="245" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/数字字符串转字母.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/机器人行走路径数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/背包问题.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/1阶2阶爬楼梯.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/打印一个字符串的全部子序列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/字符串的全排列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1825">
-          <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,9 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1950">
           <caret line="85" column="26" lean-forward="true" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
-          <folding>
-            <element signature="e#211#249#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,7 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5700">
           <caret line="245" column="4" lean-forward="false" selection-start-line="245" selection-start-column="4" selection-end-line="245" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -558,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -573,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="925">
           <caret line="37" column="39" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,14 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1825">
           <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二叉树/层序遍历.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -641,62 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二叉树/前序遍历.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二叉树/后序遍历.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二叉树/中序遍历.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/quick_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-347">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/冒泡排序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/希尔排序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/插入排序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="6" column="69" lean-forward="false" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/直接选择.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -714,17 +653,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/排序/归并排序.py">
+    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/机器人行走路径数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/字符串的全排列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1825">
+          <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/site-packages/sklearn/metrics/_ranking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5700">
+          <caret line="245" column="4" lean-forward="false" selection-start-line="245" selection-start-column="4" selection-end-line="245" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/打印一个字符串的全部子序列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/最小路径和.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/背包问题.py">
+    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/最长上升子序列.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_demo/shares_data_pro/rd.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/1阶2阶爬楼梯.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_demo/lstm_money/lstm_life_last.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -735,37 +723,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/机器人行走路径数.py">
+    <entry file="file://$PROJECT_DIR$/排序/希尔排序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="75" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/字符串的全排列.py">
+    <entry file="file://$PROJECT_DIR$/二叉树/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1825">
-          <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="29" />
+        <state relative-caret-position="200">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/site-packages/sklearn/metrics/_ranking.py">
+    <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/site-packages/numpy/lib/twodim_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5700">
-          <caret line="245" column="4" lean-forward="false" selection-start-line="245" selection-start-column="4" selection-end-line="245" selection-end-column="4" />
+        <state relative-caret-position="-1124">
+          <caret line="154" column="4" lean-forward="false" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/roc_threshold.py">
+    <entry file="file://$PROJECT_DIR$/tem/seq2seq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="85" column="26" lean-forward="false" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
-          <folding>
-            <element signature="e#211#249#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/归并排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/quick_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="51" column="92" lean-forward="false" selection-start-line="51" selection-start-column="92" selection-end-line="51" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/冒泡排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/直接选择.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/插入排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/后序遍历.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/前序遍历.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="91" column="14" lean-forward="false" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/中序遍历.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/层序遍历.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/最长回文子串.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="47" column="125" lean-forward="false" selection-start-line="47" selection-start-column="125" selection-end-line="47" selection-end-column="125" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -773,13 +839,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/打印一个字符串的全部子序列.py">
+    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/不同路径.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="600">
+          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/递归总结.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -792,51 +867,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/递归总结.py">
+    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/背包问题.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/最小路径和.py">
+    <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="173">
+          <caret line="719" column="18" lean-forward="true" selection-start-line="719" selection-start-column="18" selection-end-line="719" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/最长上升子序列.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/1621382201/_random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="173">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m_demo/shares_data_pro/rd.txt">
+    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/416分割等和子集.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-486">
+          <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/1阶2阶爬楼梯.py">
+    <entry file="file://$PROJECT_DIR$/util/roc_threshold.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="172">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="70" selection-end-column="7" />
+          <folding>
+            <element signature="e#211#249#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m_demo/lstm_money/lstm_life_last.py">
+    <entry file="file://$PROJECT_DIR$/util/tem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="117">
+          <caret line="93" column="20" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+          <folding>
+            <element signature="e#108#146#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

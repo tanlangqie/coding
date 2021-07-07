@@ -20,5 +20,14 @@ def fun(root):
                 q.append(a.left)
             if a.right:
                 q.append(a.right)
-        res.qppend(res)
+        res.qppend(tem)
     return  res
+
+def f(root):
+    res = []
+    q = []
+    q.append(root)
+    while len(q):
+        tem = []
+        for i in range(len(q)):
+            a = q.pop(0)
