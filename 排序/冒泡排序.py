@@ -10,7 +10,7 @@ def maopao():
     count = 0
     # a = [7,6,5,8,1,3,2,9,4]
     a = [1,2,3,4,5,6,7,8,9]
-    for i in range(len(a)-1):
+    for i in range(len(a)-1):            #最理想的情况下，最外层的排序不用执行，时间复杂度为O(n)
         #假设无需交换
         flag = 1
         for j in range(len(a)-i-1):
@@ -26,3 +26,5 @@ def maopao():
 a,c = maopao()
 print(a)
 print(c)
+
+

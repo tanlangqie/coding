@@ -1,4 +1,4 @@
-'''
+[typeq'''
 一个机器人位于一个 m x n 网格的左上角 （起始点在下图中标记为“Start” ）。
 
 机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角（在下图中标记为“Finish”）。
@@ -28,7 +28,7 @@ print(s.move(2,1))
 '''
 二维动态规划 --
 class Solution(object):
-        
+    #将二维空间优化至一维空间    
     def uniquePaths(self, m, n):
         cur = [1] * n
         for i in range(1, m):

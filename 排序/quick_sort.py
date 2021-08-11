@@ -40,6 +40,7 @@ def quick_sort(a,low,high):
 #2.第2个while的判断条件中有等号
 #3.递归之前也有条件判断,判断索引边界
 #4.每次递归的tem是取arr[low]，而不是arr[0]
+#5
 def fun(a,l,r):
     i = l
     j = r
@@ -48,14 +49,14 @@ def fun(a,l,r):
         while i<j and a[j]>=tem:
             j -= 1
         if i < j:
-            a[i] = a[j]
+            a[i] = a[j]                            # i与j互换，易错点，发现一个小于tem的应该放在左边，所有是a[i]在等号左边
             i += 1
         while i < j and a[i]<=tem:
             i += 1
         if i < j:
             a[j] = a[i]
             j -= 1
-    a[i] = tem
+    a[i] = tem                                      # tem赋值  ，易错点
     if l < i:
         fun(a,l,i-1)
     if r > i:
