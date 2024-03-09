@@ -58,3 +58,19 @@ git merge master
 
 git push origin 自己分支名
 ————————————————
+
+
+
+
+
+
+
+# 本地代码同步至远程git分支
+1.本地项目文件夹下执行 git init
+2.git add .
+3.git commit -m 'test'
+4.远程github新建一个同名的仓库
+5.将本地与远程仓库连接
+git remote add origin git@github.com:michaelliao/learngit.git  （如果关联错了则需要 $ git remote rm origin）
+6.本地仓库同步至远程
+git push -u origin master

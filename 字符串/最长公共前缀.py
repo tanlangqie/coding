@@ -3,11 +3,11 @@
 # Name:   最长公共前缀.py
 # Author: tangzhuang
 # Date:   2021/7/12
+# 编写一个函数来查找字符串数组中的最长公共前缀。如果不存在公共前缀，返回空字符串
+# 输入：strs = ["flower","flow","flight"]
+# 输出："fl"
 # desc:    https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-leetcode-solution/
-"""
 
-
-"""
 
 
 #水平扫描，计算第一个字符串与第二个字符串的最长公共子序列(tem_str)，用得到的tem_str与
