@@ -4,7 +4,7 @@
 # Name:   n皇后问题.py
 # Author: tangzhuang
 # Date:   2021/3/27
-# desc:   二维数组上的所有遍历----递归
+# desc:   二维数组上的所有遍历----递归。范围上的尝试模型
 
 
 

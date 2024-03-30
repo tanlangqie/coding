@@ -7,24 +7,32 @@
 
 
 ### 递归  --》超时
+
 class Solution:
-    def change(self, amount: int, coins: List[int]) -> int:
-        size = len(coins)
+    def coinChange(self, coins , amount  ) -> int:
         path = []
         res = []
 
-        def fun(coins,path,amount,res):
+        def fun(coins,index,path,amount,res):
+            print(coins,index,path,amount,res)
             if sum(path) > amount:    #剪枝
                 return
             if sum(path) == amount:
                 res.append(path)
                 return
-            for k,v in enumerate(coins):
-                fun(coins[k:],path+[v],amount,res)     #剪枝
+            if index>=len(coins):
+                return
+            for i in range(amount//coins[index]+1):   #剪枝
+                if sum(path)+coins[index]<=amount:
+                    fun(coins,index+1,path[:]+[coins[index]]*i,amount,res)
+            # fun(coins, index+1, path, amount, res)
             return
-        fun(coins,path,amount,res)
+        fun(coins,0,path,amount,res)
 
         return len(res)
+s = Solution()
+pp = s.coinChange([1, 2, 5],5)
+print(pp)
 
 
 #####  动态规划   #########

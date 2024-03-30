@@ -22,6 +22,11 @@
 输入：nums = [2,3,1,1,4]
 输出：true
 解释：可以先跳 1 步，从下标 0 到达下标 1, 然后再从下标 1 跳 3 步到达最后一个下标。
+
+
+输入：nums = [3,2,1,0,4]
+输出：false
+解释：无论怎样，总会到达下标为 3 的位置。但该下标的最大跳跃长度是 0 ， 所以永远不可能到达最后一个下标。
 """
 
 
@@ -31,8 +36,20 @@ class Solution:
         size = len(nums)
         max_l = 0
         for i in range(size-1):
-            if max_l >= i:
-                max_l = max(max_l,i+nums[i])
+            if max_l >= i:  #防止【0-2-3】这种用例，从0开始都没机会到达下一个
+                max_l = max(max_l,i+nums[i])    #与最大子序列和是一个问题，动态规划方程：到当前位置的最大值为之前的最大值或者当前位置加上当前位置的数组值
         if max_l >= size-1:
             return True
         return False
+
+
+# 20240329 x
+def fun(nums):
+    if nums is None:
+        return False
+    max_step = nums[0]
+    for i in range(len(nums)-1):
+        max_step = max(i+nums[i],max_step)
+    if max_step>=len(nums)-1:
+        return True
+    return False

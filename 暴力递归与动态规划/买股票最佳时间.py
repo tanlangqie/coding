@@ -5,6 +5,8 @@
 
 解法：
 动态规划 前i天的最大收益 = max{前i-1天的最大收益，第i天的价格-前i-1天中的最小价格}
+注意动态规划的定义：这里的定义直接就是题目的结果
+像在最大子序列和的问题中，递归函数的定义是：以第n个数为结束点的子数列的最大和，存在一个递推关系f(n) = max(f(n-1) + A[n], A[n]);这个结果只是dp[i]的值，还需要在对dp[i]求个max
 '''
 
 # class Solution:
@@ -19,6 +21,26 @@
 #                 maxres = max(maxres, prices[i]-minp)
 #             return maxres
 
+
+'''
+不用动态规划   第i个位置的值减去前i-1个位置的最小值
+class Solution(object):
+    def maxProfit(self, prices):
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
+        res = 0
+        if len(prices)<2:
+            return 0
+
+        minp = prices[0]
+
+        for i in range(1,len(prices)):
+            minp = min(minp,prices[i-1])
+            res=max(res,prices[i]-minp)
+        return(res)
+'''
 
 '''
 题目形式：有一个数组，求其中两个数x,y，满足x的索引小于y的索引，使得 x-y 最大。例如 arr = [3,7,2,6,4,1,9,8,5]， 最大回撤是6，对应的x=7,y=1。

@@ -73,3 +73,12 @@ fun([1,5,-10,2,5,-3,2,6,-3,1])
 
 
 """
+
+#20240329---出错了
+def fun(nums):
+    if len(nums) < 1:
+        return None
+    res = nums[0]
+    for i in range(1, len(nums)):
+        res = max(res+nums[i],nums[i])   #错误原因：这里的res其实记录的是第i个位置的最大值dp[i]，并不是最终结果的最大值，应该在用一个res来求dp[i]的最值
+    return res
