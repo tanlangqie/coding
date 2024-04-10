@@ -64,3 +64,34 @@ class Solution:
                 else:
                     return False
         return True
+
+
+# 20240330 过
+class Solution:
+    def lemonadeChange(self, bills: List[int]) -> bool:
+        c5=1
+        c10=0
+        c20=0
+        if len(bills)<1:
+            return None
+        if bills[0]!=5:
+            return False
+        for i in bills[1:]:
+            if i==5:
+                c5 += 1
+            if i==10:
+                if c5>=1:
+                    c5-=1
+                    c10+=1
+                else:
+                    return False
+            if i==20:
+                if c5*5+c10*10>=15 and c5 >0:
+                    if c10>=1:
+                        c10-=1
+                        c5-=1
+                    else:
+                        c5 -=3
+                else:
+                    return False
+        return True

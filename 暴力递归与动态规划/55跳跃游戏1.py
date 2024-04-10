@@ -34,7 +34,7 @@
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         size = len(nums)
-        max_l = 0
+        max_l = 0    #最开始假象有个光标在数组的-1处，此时能走的最远距离是0，现在准备往右遍历了
         for i in range(size-1):
             if max_l >= i:  #防止【0-2-3】这种用例，从0开始都没机会到达下一个
                 max_l = max(max_l,i+nums[i])    #与最大子序列和是一个问题，动态规划方程：到当前位置的最大值为之前的最大值或者当前位置加上当前位置的数组值

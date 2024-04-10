@@ -55,8 +55,9 @@ class Solution:
             return size
 
         dp = [1] * size
-        for i in range(1, size):
-            for j in range(i):
+        #动态转移方程= 第i个位置的最大值 = 从0开始截止到i-1位置的最大 +1 (在当前值大于之前最长序列的最大值的条件下)
+        for i in range(1, size): #遍历数组
+            for j in range(i):    #找到截止到i-1位置的最大值
                 if nums[i] > nums[j]:
                     # + 1 的位置不要加错了
                     dp[i] = max(dp[i], dp[j] + 1)
@@ -68,3 +69,27 @@ class Solution:
 # 链接：https: // leetcode - cn.com / problems / two - sum / solution / dong - tai - gui - hua - er - fen - cha - zhao - tan - xin - suan - fa - p /
 # 来源：力扣（LeetCode）
 # 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+
+#暴力递归   超时    20240331
+class Solution:
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        if len(nums)==0:
+            return 0
+        path = []
+        res = []
+        def fun(nums,index,path,res):
+            if index == len(nums):
+                res.append(len(path))
+                return
+            #第1种情况要第index个位置的值
+            if len(path)==0:
+                fun(nums,index+1,path+[nums[index]],res)
+            else:
+                if nums[index]>path[-1]:
+                    fun(nums,index+1,path+[nums[index]],res)
+            #第2种情况不要第index个位置的值
+            fun(nums,index+1,path,res)
+        fun(nums,0,path,res)
+        return max(res)
