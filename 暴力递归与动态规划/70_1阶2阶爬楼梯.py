@@ -2,7 +2,7 @@
 
 # 原题：https://leetcode-cn.com/problems/climbing-stairs/
 
-#递归
+#递归  超出时间限制
 class Solution:
     def climbStairs(self, n: int) -> int:
         def fun(n):

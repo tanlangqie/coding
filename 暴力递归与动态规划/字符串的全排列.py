@@ -28,7 +28,6 @@ def all_pailie(string,index,res):
     :param res: 最终结果
     :return: 
     """
-
     if index == len(string):
         res.append(string)
         return

@@ -20,7 +20,7 @@
 ]
 """
 
-# 递归  + 剪枝
+# 递归  + 剪枝   与322的零钱兑换很像
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         i = 0
@@ -33,7 +33,7 @@ class Solution:
                 res.append(path)
                 return
             for i,v in enumerate(candidates):
-                fun(candidates[i:],target,res,path+[v])
+                fun(candidates[i:],target,res,path+[v])   #直接输入candidates没有剪枝，candidates[i:]是为了剪枝，因为第一次取2第二次取3 和第一次取3第二次取2是一样的，所以可以剪枝，
             return
-        fun(candidates,target,res,path)
+        fun(candidates,target,res,path)   #因为可以有无限多个值可以选所以深度上没有限制，不用传递深度index。 但是广度有限制所有函数中有for循环，用来做广度上的选择
         return res

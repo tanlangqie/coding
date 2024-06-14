@@ -33,8 +33,8 @@ class Solution:
         dp = [[0] * n for i in range(n)]
         dp[0][0] = triangle[0][0]
 
-        for i in range(1, n):
-            for k in range(i + 1):
+        for i in range(1, n):  #从第2行开始
+            for k in range(i + 1):  #每行有i+1个元素
                 if k == 0:
                     dp[i][k] = dp[i - 1][k] + triangle[i][k]
                 elif k == i:
@@ -53,22 +53,18 @@ class Solution:
 #递归，时间超出限制
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
-        minv = []
-        path = 0
+        res = []
+        path = []
         i = 0
         j = 0
-
-
-        def fun(minv, i, j, triangle, path):
+        def fun(triangle,i,j,path,res):
             if i == len(triangle):
-                minv.append(path)
+                res.append(sum(path))
                 return
-            path += triangle[i][j]
 
-            if j >= 0:
-                fun(minv, i + 1, j, triangle, path)
-            if j + 1 <= len(triangle[i]):
-                fun(minv, i + 1, j + 1, triangle, path)
+            fun(triangle,i+1,j,path+[triangle[i][j]],res)
 
-        fun(minv, i, j, triangle, path)
-        return min(minv)
+            fun(triangle,i+1,j+1,path+[triangle[i][j]],res)
+            return
+        fun(triangle,0,0,path,res)
+        return min(res)
