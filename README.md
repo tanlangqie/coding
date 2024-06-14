@@ -74,3 +74,10 @@ git push origin 自己分支名
 git remote add origin git@github.com:michaelliao/learngit.git  （如果关联错了则需要 $ git remote rm origin）
 6.本地仓库同步至远程
 git push -u origin master
+=======
+# 新建项目
+1.现在github新建一个项目，然后再本地 git clone 项目地址
+
+
+
+
