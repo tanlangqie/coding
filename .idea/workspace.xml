@@ -2,8 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0042145-98bb-4739-af09-340fd476924c" name="Default" comment="更新">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_demo/shares_data_pro/daily_data.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_demo/shares_data_pro/data.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_demo/shares_data_pro/res.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_demo/shares_data_pro/res_1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model_test.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_tensorflow/logs/events.out.tfevents.1627883276.LAPTOP-GN80KV3S" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_tensorflow/logs/events.out.tfevents.1627885204.LAPTOP-GN80KV3S" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_demo/iso_data_plot/10m96_0du_2ci(1).csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_demo/iso_data_plot/dongTu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_demo/iso_data_plot/isolationforset.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_demo/lstm_money/lstm_life.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_demo/lstm_money/lstm_life_last.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_demo/lstm_money/test_label.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_demo/lstm_money/train_label(1).csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_demo/shares_data_pro/data_pro.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_demo/shares_data_pro/rd.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m_demo/shares_data_pro/resdd.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_tensorflow/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_tensorflow/addLayer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_tensorflow/keras_lstm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_tensorflow/mnist.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_tensorflow/placeholder.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_tensorflow/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_tensorflow/session.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_tensorflow/tem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_tensorflow/tensorboard.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_tensorflow/variable.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_tensorflow/线性回归.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tem/seq2seq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tem1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tem2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tem3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/coding_input.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/roc_threshold.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/tem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ww.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/二叉树/100.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/二叉树/98二叉搜索树.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/二叉树/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/二叉树/二叉树子树问题.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/二叉树/平衡二叉树.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/字符串/20_有效括号.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/字符串/3_无重复字符的最长子串.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/字符串/5_最长回文子串.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/字符串/9_回文数.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/字符串/最长公共前缀.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/总结.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数组/11_接雨水.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数组/1_两数之和.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数组/26删除有序数组中的重复项.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数组/27移除元素.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数组/33搜索旋转排序数组.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/120_三角形最小路径和.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/198_打家劫舍.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/213_打家劫舍2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/300_最长上升子序列.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/322零钱兑换.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/39组合总和.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/416分割等和子集.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/45跳跃游戏2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/46_全排列.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/518零钱兑换2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/55跳跃游戏1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/70_1阶2阶爬楼梯.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/72_字符串编辑距离.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/860柠檬水找零.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/tem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/不同路径.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/丑数2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/乘积最大子序列.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/买股票最佳时间.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/最大子序列和.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/最小路径和.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/暴力递归与动态规划/最长回文子串.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/链表/删除链表的第n个节点.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/coding.iml" afterPath="$PROJECT_DIR$/.idea/coding.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/二叉树/中序遍历.py" afterPath="$PROJECT_DIR$/二叉树/中序遍历.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/二叉树/前序遍历.py" afterPath="$PROJECT_DIR$/二叉树/前序遍历.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/二叉树/层序遍历.py" afterPath="$PROJECT_DIR$/二叉树/层序遍历.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/quick_sort.py" afterPath="$PROJECT_DIR$/排序/quick_sort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/冒泡排序.py" afterPath="$PROJECT_DIR$/排序/冒泡排序.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/插入排序.py" afterPath="$PROJECT_DIR$/排序/插入排序.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/直接选择.py" afterPath="$PROJECT_DIR$/排序/直接选择.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/暴力递归与动态规划/n皇后问题.py" afterPath="$PROJECT_DIR$/暴力递归与动态规划/n皇后问题.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/暴力递归与动态规划/test.py" afterPath="$PROJECT_DIR$/暴力递归与动态规划/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/暴力递归与动态规划/字符串的全排列.py" afterPath="$PROJECT_DIR$/暴力递归与动态规划/字符串的全排列.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/暴力递归与动态规划/打印一个字符串的全部子序列.py" afterPath="$PROJECT_DIR$/暴力递归与动态规划/打印一个字符串的全部子序列.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/暴力递归与动态规划/背包问题.py" afterPath="$PROJECT_DIR$/暴力递归与动态规划/背包问题.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/链表/翻转单链表.py" afterPath="$PROJECT_DIR$/链表/翻转单链表.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +106,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="206">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="res2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tem3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tem3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="总结.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/总结.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -53,25 +174,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>,</find>
-      <find>\text</find>
-      <find>y_p</find>
-      <find>plot_model</find>
-      <find>递归</find>
-      <find>递</find>
-      <find>总结</find>
-      <find>要素</find>
-      <find>要</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>,</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>D:\PycharmProjects\coding</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,8 +248,8 @@
         <option value="$PROJECT_DIR$/暴力递归与动态规划/120_三角形最小路径和.py" />
         <option value="$PROJECT_DIR$/暴力递归与动态规划/n皇后问题.py" />
         <option value="$PROJECT_DIR$/暴力递归与动态规划/背包问题.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -197,36 +299,6 @@
     <property name="last_opened_file_path" value="D:/project/torch_learn" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
-  </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings module-name="coding" is-module-sdk="true">
-        <envs>
-          <env key="PATH" value="D:\Program Files (x86)\Anaconda3;D:\Program Files (x86)\Anaconda3\Library\mingw-w64\bin;D:\Program Files (x86)\Anaconda3\Library\usr\bin;D:\Program Files (x86)\Anaconda3\Library\bin;D:\Program Files (x86)\Anaconda3\Scripts;D:\Program Files (x86)\Anaconda3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files (x86)\Graphviz2.38\bin;D:\Program Files (x86)\Anaconda3\Lib\site-packages\nltk_data;D:\Program Files\Git\cmd;D:\CTEX\UserData\miktex\bin;D:\Program Files\MiKTeX\miktex\bin\x64\;D:\CTEX\MiKTeX\miktex\bin;D:\CTEX\CTeX\ctex\bin;D:\CTEX\CTeX\cct\bin;D:\CTEX\CTeX\ty\bin;D:\CTEX\Ghostscript\gs9.05\bin;D:\CTEX\GSview\gsview;D:\CTEX\WinEdt;D:\develope\Java\jdk-11.0.6\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Graphviz\bin;D:\Program Files\MySQL\MySQL Utilities 1.3.6\;D:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Program Files (x86)\Anaconda3;D:\Program Files (x86)\Anaconda3\Scripts;D:\Program Files (x86)\Anaconda3\Library\bin;C:\Users\tangzhuang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;D:\Program Files (x86)\Graphviz2.38\bin;C:\Users\tangzhuang\AppData\Local\BypassRuntm;C:\Users\tangzhuang\AppData\Local\Microsoft\WindowsApps;D:\Tencent\QQGameTempest\Hall.57821\;D:\Program Files (x86)\Anaconda3\lib\site-packages\pywin32_system32" />
-        </envs>
-        <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="coding" />
-        <option name="myEnvs">
-          <map>
-            <entry key="PATH" value="D:\Program Files (x86)\Anaconda3;D:\Program Files (x86)\Anaconda3\Library\mingw-w64\bin;D:\Program Files (x86)\Anaconda3\Library\usr\bin;D:\Program Files (x86)\Anaconda3\Library\bin;D:\Program Files (x86)\Anaconda3\Scripts;D:\Program Files (x86)\Anaconda3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files (x86)\Graphviz2.38\bin;D:\Program Files (x86)\Anaconda3\Lib\site-packages\nltk_data;D:\Program Files\Git\cmd;D:\CTEX\UserData\miktex\bin;D:\Program Files\MiKTeX\miktex\bin\x64\;D:\CTEX\MiKTeX\miktex\bin;D:\CTEX\CTeX\ctex\bin;D:\CTEX\CTeX\cct\bin;D:\CTEX\CTeX\ty\bin;D:\CTEX\Ghostscript\gs9.05\bin;D:\CTEX\GSview\gsview;D:\CTEX\WinEdt;D:\develope\Java\jdk-11.0.6\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Graphviz\bin;D:\Program Files\MySQL\MySQL Utilities 1.3.6\;D:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Program Files (x86)\Anaconda3;D:\Program Files (x86)\Anaconda3\Scripts;D:\Program Files (x86)\Anaconda3\Library\bin;C:\Users\tangzhuang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;D:\Program Files (x86)\Graphviz2.38\bin;C:\Users\tangzhuang\AppData\Local\BypassRuntm;C:\Users\tangzhuang\AppData\Local\Microsoft\WindowsApps;D:\Tencent\QQGameTempest\Hall.57821\;D:\Program Files (x86)\Anaconda3\lib\site-packages\pywin32_system32" />
-          </map>
-        </option>
-      </console-settings>
-    </option>
-  </component>
-  <component name="PyDebuggerOptionsProvider">
-    <option name="myAttachToSubprocess" value="false" />
-    <option name="mySupportQtDebugging" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PycharmProjects\coding" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PycharmProjects\coding\m_demo" />
-      <recent name="D:\PycharmProjects\coding\暴力递归与动态规划" />
-      <recent name="D:\PycharmProjects\coding" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -325,9 +397,6 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d0042145-98bb-4739-af09-340fd476924c" name="Default" comment="" />
@@ -346,15 +415,6 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
     <frame x="7" y="2" width="1934" height="1017" extended-state="0" />
     <layout>
@@ -365,7 +425,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7793427" sideWeight="0.49784946" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34389672" sideWeight="0.49784946" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3150224" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.103225805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -432,7 +492,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/暴力递归与动态规划/test.py</url>
-          <line>11</line>
+          <line>81</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
@@ -441,8 +501,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/数组/33搜索旋转排序数组.py" />
-    <entry file="file://$PROJECT_DIR$/二叉树/二叉树子树问题.py" />
     <entry file="file://$PROJECT_DIR$/二叉树/98二叉搜索树.py" />
     <entry file="file://$PROJECT_DIR$/二叉树/中序遍历.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -558,13 +616,12 @@
     <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/322零钱兑换.py" />
     <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/300_最长上升子序列.py" />
     <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/55跳跃游戏1.py" />
-    <entry file="file://$PROJECT_DIR$/总结.md" />
     <entry file="file://$PROJECT_DIR$/my_tensorflow/readme.md" />
     <entry file="file://$PROJECT_DIR$/暴力递归与动态规划/45跳跃游戏2.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="206">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -581,6 +638,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tem3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/总结.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
