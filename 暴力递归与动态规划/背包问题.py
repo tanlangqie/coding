@@ -92,16 +92,19 @@ def bag_dp(w,v,rest):
 
 
 # 二维数组
+#     w = [2,3,4,5]
+#     v = [1,2,5,7]
 import numpy as np
 #dp[i][j] 走到第i个物品有j个空间容量时，最大能装多少东西
 def solve(vlist,wlist,totalWeight,totalLength):
     resArr = np.zeros((totalLength+1,totalWeight+1),dtype=np.int32)
     for i in range(1,totalLength+1):                 #物品
         for j in range(1,totalWeight+1):               # 背包容量
-            if wlist[i] <= j:
-                resArr[i,j] = max(resArr[i-1,j-wlist[i]]+vlist[i],resArr[i-1,j])
+            if wlist[i-1] <= j:
+                resArr[i,j] = max(resArr[i-1,j-wlist[i-1]]+vlist[i-1],resArr[i-1,j])
             else:
                 resArr[i,j] = resArr[i-1,j]
+    print(resArr)
     return resArr[-1,-1]
 
 """
@@ -140,14 +143,15 @@ if __name__ == '__main__':
     v = [1,2,5,7]
     index = 0
     rest = 8
-    res = bag_digui(w,v,index,rest)
-    print(res )
+    # res = bag_digui(w,v,index,rest)
+    # print(res )
+    #
+    # a,b = bag_dp(w,v,rest)
+    # print(a)
+    # print(b)
 
-    a,b = bag_dp(w,v,rest)
-    print(a)
-    print(b)
-
-
+    ss = solve(v, w, rest, 4)
+    print(ss)
     # for i in range(3, -1,-1):
     #     print(i)
 

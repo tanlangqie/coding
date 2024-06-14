@@ -8,7 +8,7 @@
 
 
 
-def n_queen(n,i,record):
+def n_queen(n,i,record):    #n代表总共有几个皇后  i代表当前遍历到第i个皇后
     if n == 1:
         return 0
 
@@ -43,6 +43,6 @@ if __name__ == "__main__":
     n = 6
 
     i = 0
-    record = [0]*n
-    res = n_queen(n, i, record)
+    record = [0]*n   #记录那些列已经被放过
+    res = n_queen(n, i, record)  # 第i个皇后开始放
     print(res)

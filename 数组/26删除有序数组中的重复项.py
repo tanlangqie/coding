@@ -33,6 +33,7 @@ class Solution:
         temIndex = 1
         for i in range(1,len(nums)):
             if nums[i] != nums[i-1]:  #找到与前面不相同的下标i,将其赋值给不重复的元素索引temIndex
+
                 nums[temIndex] = nums[i]
                 temIndex += 1
         return temIndex

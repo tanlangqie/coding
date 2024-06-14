@@ -36,6 +36,6 @@ class Solution:
                 res.append(path)
                 return
             for i in range(len(nums)):
-                fun(nums[:i]+nums[i+1:],path+[nums[i]],res)
+                fun(nums[:i]+nums[i+1:],path+[nums[i]],res)   #每次迭代取第i个，然后后续在遍历时num就去掉第i个元素
         fun(nums,path,res)
         return res

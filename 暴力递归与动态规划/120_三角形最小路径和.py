@@ -33,8 +33,8 @@ class Solution:
         dp = [[0] * n for i in range(n)]
         dp[0][0] = triangle[0][0]
 
-        for i in range(1, n):
-            for k in range(i + 1):
+        for i in range(1, n):  #从第2行开始
+            for k in range(i + 1):  #每行有i+1个元素
                 if k == 0:
                     dp[i][k] = dp[i - 1][k] + triangle[i][k]
                 elif k == i:

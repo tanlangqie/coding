@@ -37,7 +37,7 @@ class Solution:
         max_l = 0    #最开始假象有个光标在数组的-1处，此时能走的最远距离是0，现在准备往右遍历了
         for i in range(size-1):
             if max_l >= i:  #防止【0-2-3】这种用例，从0开始都没机会到达下一个
-                max_l = max(max_l,i+nums[i])    #与最大子序列和是一个问题，动态规划方程：到当前位置的最大值为之前的最大值或者当前位置加上当前位置的数组值
+                max_l = max(max_l,i+nums[i])    #动态规划方程：到当前位置的最大值为之前的最大值或者当前位置加上当前位置的数组值
         if max_l >= size-1:
             return True
         return False
@@ -53,3 +53,21 @@ def fun(nums):
     if max_step>=len(nums)-1:
         return True
     return False
+
+# 20240414 基于跳跃游戏2改版。只需要在结尾处加个判断就可以
+class Solution:
+    def canJump(self, nums: List[int]) -> bool:
+        if nums is None:
+            return False
+        n = len(nums)
+        maxPos, end, step = 0, 0, 0
+        for i in range(n - 1):
+            if maxPos >= i:
+                maxPos = max(maxPos, i + nums[i])
+                if i == end:
+                    end = maxPos
+                    step += 1
+
+        if maxPos>=len(nums)-1:
+            return True
+        return False

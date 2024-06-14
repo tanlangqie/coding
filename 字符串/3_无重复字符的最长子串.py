@@ -18,7 +18,7 @@ class Solution:
             if i != 0:
                 # 左指针向右移动一格，移除一个字符
                 occ.remove(s[i - 1])
-            while rk + 1 < n and s[rk + 1] not in occ:
+            while rk + 1 < n and s[rk + 1] not in occ: #找到右指针能走到的最远位置
                 # 不断地移动右指针
                 occ.add(s[rk + 1])
                 rk += 1
